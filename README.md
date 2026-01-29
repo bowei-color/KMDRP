@@ -43,7 +43,7 @@ conda install -c conda-forge rdkit
 
 #### Training the Teacher Model (with complete multi-omics data):
 ```bash
-python teacher_model.py \
+python teacher_model.py 
 ```
 
 #### Training the Student Model (with RNA-only data):
