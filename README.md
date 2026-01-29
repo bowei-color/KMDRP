@@ -17,8 +17,6 @@
 ### Prerequisites
 - Python >= 3.9.x
 - PyTorch >= 1.10.0
-- RDKit >= 2022.09.5 (for molecular fingerprint generation)
-- Transformers >= 4.30.0 (for ChemBERTa)
 - Other dependencies as listed in `requirements.txt`
 
 ### Installation
@@ -31,7 +29,7 @@ cd KMDRP
 
 2. Create and activate a conda environment:
 ```bash
-conda create -n kmdrp python=3.8
+conda create -n kmdrp python=3.9
 conda activate kmdrp
 ```
 
@@ -62,7 +60,6 @@ python student_model.py
 
 ### Drug Data:
 - **SMILES Strings**: Molecular structures
-- **Morgan Fingerprints**: 2048-bit molecular fingerprints
 - **Physicochemical Properties**: Molecular weight, logP, HBA, HBD, etc.
 
 ## Documentation
