@@ -2,7 +2,7 @@
 
 `KMDRP` (Knowledge-driven Multimodal Drug Response Predictor) is a knowledge distillation-based multimodal fusion interpretable deep neural network framework. It integrates three omics modalities (RNA expression, SGA genomic alterations, and protein expression) with drug molecular information to predict tumor drug response (IC50 values). The framework addresses real-world clinical data incompleteness through a "teacher-student" architecture with task-aware variational generative modeling, enabling accurate predictions using only RNA sequencing data.
 
-![Framework Overview](model.jpeg "Figure 1: Overview of the KMDRP framework")
+!model.jpeg "Figure 1: Overview of the KMDRP framework"
 
 ## Features
 
