@@ -15,7 +15,7 @@
 ## Getting Started
 
 ### Prerequisites
-- Python >= 3.8.x
+- Python >= 3.9.x
 - PyTorch >= 1.10.0
 - RDKit >= 2022.09.5 (for molecular fingerprint generation)
 - Transformers >= 4.30.0 (for ChemBERTa)
@@ -45,23 +45,12 @@ conda install -c conda-forge rdkit
 
 #### Training the Teacher Model (with complete multi-omics data):
 ```bash
-python train_teacher.py \
-    --rna_path data/rna_expression.csv \
-    --sga_path data/sga_alterations.csv \
-    --protein_path data/protein_expression.csv \
-    --drug_smiles_path data/drug_smiles.csv \
-    --output_dir models/teacher/ \
-    --epochs 100
+python teacher_model.py \
 ```
 
 #### Training the Student Model (with RNA-only data):
 ```bash
-python train_student.py \
-    --rna_path data/rna_expression.csv \
-    --drug_smiles_path data/drug_smiles.csv \
-    --teacher_model_path models/teacher/best_model.pth \
-    --output_dir models/student/ \
-    --epochs 100
+python student_model.py
 ```
 
 ## Input Structure
