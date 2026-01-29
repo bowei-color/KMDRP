@@ -6,7 +6,7 @@
 
 ## Features
 
-- **High Accuracy**: The student model (KMDRP-S) achieves RMSE = 1.1930 and R² = 0.5960 on independent test sets, outperforming 8 baseline methods.
+- **High Accuracy**: The student model (KMDRP-S) achieves RMSE = 1.1930 and R² = 0.5960 on independent test sets.
 - **Clinical Applicability**: Specifically designed for incomplete omics data, enabling robust predictions using only RNA expression data.
 - **Interpretability**: Utilizes integrated gradients and attention mechanisms to provide biological insights.
 - **Dual-branch Architecture**: Teacher-student framework with knowledge distillation and task-aware generation.
