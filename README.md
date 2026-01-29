@@ -91,8 +91,8 @@ python student_model.py
 - **Biological Consistency**: Aligns with IDH1 and EGFR mutation status
 - **Personalized Therapy**: Identifies alternative treatments for IDH1 wild-type glioma
 
-## Contributing
-Contributions are welcome. Please submit pull requests or issues via GitHub.
+## Data Availability
+The datasets used in this study are available at Zenodo: https://doi.org/10.5281/zenodo.18415152
 
 ## Contact Authors
 Dr. Bowei Yan: boweiyan2020@gmail.com
